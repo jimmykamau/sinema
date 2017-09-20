@@ -5,8 +5,8 @@ package info.jimmykamau.sinema;
  */
 
 public class Injection {
-    private static Provider provider;
-    private static Config config;
+    private static Provider provider = null;
+    private static Config config = null;
 
     public static Provider getProviderInstance() {
         if (provider == null) {
